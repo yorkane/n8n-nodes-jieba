@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-klib",
+  "name": "n8n-nodes-jieba",
   "version": "1.0.0",
   "description": "n8n node build from https://github.com/napi-rs/node-rs",
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yorkane/n8n-nodes-klib.jieba"
+    "url": "https://github.com/yorkane/n8n-nodes-jieba"
   },
   "scripts": {
     "build": "npx tsc && gulp build:icons",
@@ -34,12 +34,6 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/ImageProcessor/ImageProcessor.node.js",
-      "dist/nodes/Aria2/Aria2.node.js",
-      "dist/nodes/Aria2/Aria2Proc.node.js",
-      "dist/nodes/TorrentParse/TorrentParse.node.js",
-      "dist/nodes/FsUtils/FsUtils.node.js",
-      "dist/nodes/FsOperate/FsOperate.node.js",
       "dist/nodes/Jieba/JiebaSegment.node.js"
     ]
   },
